@@ -5,48 +5,20 @@ AnReal is a novel mobile-based extended reality (XR) system designed to treat ki
 
 It combines development in Android Studio and Python to comunicate the angles on which the person is.
 
+In Results/ are the cualitative and cuantitative results of our study, and the formulas applied to obtain the scores.
+
 ## Features
 - **Low-Cost Hardware**: Uses an Android mobile phone and a basic VR headset.
 - **Extended Reality (XR)**: Combines real-world views with pre-recorded simulated trajectories.
 - **User Experience**: Designed to provide a good user experience while minimizing cybersickness.
 - **Rehabilitation Exercise**: Specifically targets bending forward exercises, common in patients with chronic low back pain.
 
-## System Architecture
-The AnReal system architecture consists of three layers:
-1. **Application Framework Layer**: Developed using React Native and Android Studio.
-2. **Runtime and Libraries Layer**: Utilizes the Camera2 API for real-time camera feed and SensorManager API for motion sensing.
-3. **Kernel Layer**: Manages hardware interactions and real-time processing.
 
 ## Setup and Installation
 ### Requirements
 - **Hardware**: Android phone (Samsung S21 FE recommended), VR headset (approximately 32 USD).
-- **Software**: React Native, Android Studio, Node.js.
+- **Software**: React Native, Android Studio, Node.js, Python
 
-### Installation Steps
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/AnReal.git
-   cd AnReal
-   ```
-2. **Install dependencies**
-3. **Open in Android Studio:**:
-    - Open the project in Android Studio.
-    - Ensure all dependencies are resolved.
-4. **Run the Application**:
-   - Connect your Android phone.
-   - Run the application from Android Studio.
-
-## Usage
-1. **Prepare the Environment**:
-   - Mark a line on the wall to indicate the bending limit (approximately 30 degrees of inclination).
-   - Ensure a stable, well-lit environment without moving elements.
-
-2. **Using the Headset**:
-   - Wear the headset and get accustomed to the view.
-   - Perform the bending forward exercise while the headset displays the real environment and simulated trajectory.
-
-3. **Data Collection**:
-   - Use the provided questionnaires to collect user experience data, cybersickness levels, and sense of presence.
 
 ## Evaluation
 The system was initially evaluated with physical therapy students. Key findings include:
